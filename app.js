@@ -13,7 +13,7 @@ function book() {
                         var pdf = document.createElement("div");
                         pdf.innerHTML = `
                         <div>
-                            <iframe id="pdf-js-viewer" src="/web/viewer.html?file=/pdfs/` + element[1] +`.pdf" title="webviewer" frameborder="0" width="800" height="600"></iframe>
+                            <iframe id="pdf-js-viewer" src="web/viewer.html?file=/pdfs/` + element[1] +`.pdf" title="webviewer" frameborder="0" width="800" height="600"></iframe>
                         </div>
                         `;
                         document.body.appendChild(pdf);
