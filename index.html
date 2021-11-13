@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Code Books</title>
+        <link href="styles.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="csv-js.js"></script>
+        <script src="app.js"></script>
+        <script src="blink.js"></script>
+    </head>
+    <body>
+        <h1>CodeBooks<sub>&nbsp;&nbsp;&nbsp;&nbsp;Quick Book Opener - A Developers best freind</sub></h1>
+        <form action="javascript:book();">
+            <label for="book">Enter e-book code:</label>
+            <input id="book" name="book" pattern="[0-9]{8}" placeholder="12345678">
+            <button type="submit">Open e-book</button>
+        </form>
+<pre style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+Handbook:
+12345678: Dummy PDF - And example of this service
+10000000: Python tutorial for 3 + 2
+20000000: JavaScript tutorial for JS5 and HTML5
+</pre>
+    </script>
+    </body>
+</html>
