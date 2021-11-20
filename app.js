@@ -26,7 +26,7 @@ function book() {
                 console.warn("Book was not found.");
                 var error = document.createElement("p");
                 error.innerHTML = "The code is invalid... Try entering the code again.";
-                error.id = "myBlinkingDiv";
+                error.className = "myBlinkingDiv";
                 error.style.color = "red";
                 document.body.appendChild(error);
                 start_blink();
